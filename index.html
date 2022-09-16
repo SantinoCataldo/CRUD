@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/marron.ico"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso De Datos</title>
+    <link rel="stylesheet" href="css/style.css?1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+        <form action="ingreso.php" method="post" enctype="multipart/form-data">
+            <h1>Ingreso de datos</h1>
+            <input type="text" name="tipo" placeholder="Tipo">
+            <input type="text" name="zona" placeholder="Zona">
+            <input type="number" name="dormitorios" placeholder="Dormitorios">
+            <input type="number" name="precios" placeholder="Precios">
+            <input type="number" name="tamaño" placeholder="Tamaño">
+            <input type="text" name="extras" placeholder="Extras">
+            <input type="file" name="foto" class="imagen">
+            <input type="submit" name="enviar" class="boton">
+        </form>
+    
+        <div class="ir">
+            <a href="mostrar.php">
+                Base de Datos
+            </a>
+        </div>
+</body>
+</html>

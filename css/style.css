@@ -1,0 +1,95 @@
+body{
+    background: #111;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+form{
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px 0 30px;
+    background: #111;
+}
+
+form h1{
+    text-align: center;
+    color: #fff;
+}
+
+form img{
+    position: absolute;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+form input{
+    text-align: center;
+    margin: 5px 60px;
+    padding: 4px 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #ddd;
+}
+
+.imagen{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+}
+
+.boton{
+    background: #69f;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: .5s;
+    border: 2px solid transparent;
+}
+
+.boton:hover{
+    background: transparent;
+    border: 2px solid #69f;
+    color: #69f;
+}
+
+.ok{
+    color: rgb(30, 255, 0);
+}
+
+.bad{
+    color: rgb(255, 0, 0);
+}
+
+.ir{
+    margin-top: 25px;
+}
+
+.ir a{
+    background: #fff;
+    color: #111;
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 8px 6px;
+    transition: .5s;
+}
+
+a:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+}
+
+.borde{
+    border: 1px solid #fff;
+    color: #fff;
+}
